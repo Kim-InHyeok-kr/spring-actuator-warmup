@@ -169,7 +169,7 @@ public class WarmupStatus {
 
 ---
 
-## 4.0 기대 효과
+## 4. 기대 효과
 - 서비스 기동 직후의 초기 지연 감소
 - 준비되지 않은 상태의 트래픽 유입 방지
 - Health/Readiness 모니터링의 신뢰성 향상
