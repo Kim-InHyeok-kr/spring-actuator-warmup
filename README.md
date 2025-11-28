@@ -22,7 +22,7 @@ DB, Redis 등 핵심 자원에 대한 사전 준비(Warmup) 로직을 구성하�
 
 ### 1.2 Actuator Health Check 연동
 기존 Actuator Health 체크 Bean에 **Warmup 검증 Bean**을 추가하여  
-애플리케이션의 **실제 서비스 가능 여부(Service Readiness)**가 Health 결과에 반영되도록 개선하였습니다.
+애플리케이션의 **실제 서비스 가능 여부(Service Readiness)** 가 Health 결과에 반영되도록 개선하였습니다.
 
 - Warmup이 완료되지 않은 상태에서는 `readiness` 상태를 `OUT_OF_SERVICE` 또는 `DOWN`으로 반환
 - Warmup이 완료된 이후에만 `UP` 상태로 전환되도록 설계
